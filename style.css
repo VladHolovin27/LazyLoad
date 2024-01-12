@@ -1,0 +1,27 @@
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transition: background-color 0.3s ease;
+    margin: 20px;
+    text-align: center;
+}
+
+.hover {
+    background-color: lightgreen;
+} */
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+img.loadImageOnSite {
+    transform: translateY(0);
+    opacity: 1;
+}
